@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+.azul{
+  background: #065991 !important;
+  color: #fff !important;
+  border: none;
+}
+.botones{
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+.logotipo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sombra{
+-moz-box-shadow: -1px 2px 5px #000000 !important;
+-webkit-box-shadow: -1px 2px 5px #000000 !important;
+box-shadow: -1px 2px 5px #000000 !important;
+}
+.nav .nav-item[aria-selected="true"]{
+  background: #ebebeb !important;
+} 
+  #izquierda{
+    width: 45%;
+    margin: 5%;
+    min-height: 130px;
+    float: left;
+    -moz-box-shadow:inset 0px 1px 13px #000000;
+    -webkit-box-shadow:inset 0px 1px 13px #000000;
+    box-shadow:inset 0px 1px 13px #000000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    margin-bottom: 2%;
+  }
+  #derecha{
+    width: 45%;
+    margin: 5%;
+    float: right;
+    -moz-box-shadow:inset 0px 1px 13px #000000;
+    -webkit-box-shadow:inset 0px 1px 13px #000000;
+    box-shadow:inset 0px 1px 13px #000000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+  }
+  #uploadPreview1{
+  max-width: 80%;
+  max-height: 80%;
+  min-width: 380px
+}
+.izquierda {
+  width: 85%;
+  min-height: 370px;
+  margin:auto;
+  -moz-box-shadow:inset 0px 1px 13px #000000;
+  -webkit-box-shadow:inset 0px 1px 13px #000000;
+  box-shadow:inset 0px 1px 13px #000000;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+.derecha{
+  width: 47%;
+  min-height: 370px;
+  margin:auto;
+  -moz-box-shadow:inset 0px 1px 13px #000000;
+  -webkit-box-shadow:inset 0px 1px 13px #000000;
+  box-shadow:inset 0px 1px 13px #000000;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+.tipoBajaSelect{
+    width: 50%;
+}
+
+#uploadPreview1{
+  max-width: 380px;
+  max-height: 320px;
+}
+
+.marg-menu{
+  margin-top: 30px;
+}
+
+.well{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 50%;
+  box-shadow: 0 0 8px #000;
+}
+.color{
+  color: #065991 !important
+}
+.w3ls-img {
+  margin: 1em 0;
+}
+.w3ls-img img {
+  background:#01A9DB;
+  border-radius: 50%;
+  border: 2px  #fff;
+}
+.w3ls-img img {
+  width: 20%;
+}
+.color-bg{
+  color: #31708e;
+  font-size: 13px;
+  
+}
+.box{
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  border-top: 3px solid #d2d6de;
+  border-top-color:  #065991 !important
+}
+
+  /*.btn-flotante {
+  color: #ffffff;
+  background-color: #065991 !important;
+  position: fixed;
+  left: 1%;
+  top:13%;
+  z-index: 99;
+  }*/
+@media (max-width: 750px){
+  .pie{
+    font-size:11px;
+  }
+  h1 {
+    margin-top: 5%;
+   font-size:25px;
+   font-weight: bolder;
+  }
+/*  .btn-flotante {
+  color: #ffffff; /* Color del texto 
+  background-color: #065991 !important; /* Color de fondo 
+  position: fixed;
+  left: 1%;
+  top:13%;
+  z-index: 99;
+  }
+*/
+.tipoBajaSelect{
+    width:90%;
+}
+  #izquierda{
+    width: 100%;
+    margin: 5%;
+    min-height: 130px;
+    float: none;
+    -moz-box-shadow:inset 0px 1px 13px #000000;
+    -webkit-box-shadow:inset 0px 1px 13px #000000;
+    box-shadow:inset 0px 1px 13px #000000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    margin-bottom: 2%;
+  }
+  #derecha{
+    width: 100%;
+    margin: 5%;
+    float: none;
+    -moz-box-shadow:inset 0px 1px 13px #000000;
+    -webkit-box-shadow:inset 0px 1px 13px #000000;
+    box-shadow:inset 0px 1px 13px #000000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+  }
+  .izquierda {
+    width: 90%;
+    margin: 5%;
+    min-height: 130px;
+    float: none;
+    -moz-box-shadow:inset 0px 1px 13px #000000;
+    -webkit-box-shadow:inset 0px 1px 13px #000000;
+    box-shadow:inset 0px 1px 13px #000000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    margin-bottom: 2%;
+  }
+  #uploadPreview1{
+  max-width: 80%;
+  max-height: 80%;
+}
+  .derecha{
+    width: 90%;
+    margin: 5%;
+    float: none;
+    -moz-box-shadow:inset 0px 1px 13px #000000;
+    -webkit-box-shadow:inset 0px 1px 13px #000000;
+    box-shadow:inset 0px 1px 13px #000000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+  }
+  .marg-menu{
+    margin-top: 50px;
+  }
+  .w3ls-img img {
+    width: 50%;
+  }
+  .proximamente{
+    width: 100%!important;
+    margin: none;
+  }
+  .m-5 {
+    margin: 0!important;
+  }
+  #h1{
+    font-size: 100%;
+  }
+  #botones2{
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items:left;
+  }
+  #botones{
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 0 0 85%;
+  }
+  .eliminarmsj{
+    width: 100%;
+  }
+  .esconder{
+    display: none;
+  }
+  .requisitos{
+    margin: 10px 0 0 0;
+  }
+
+@media (max-width: 767px){
+  .esconder{
+    display: none;
+  }
+  #estado{
+    width:240px;
+    font-size: 15px;
+  }
+}
+
+/* BOTON FLOTANTE */
+
+.btn-flotante {
+  font-size: 8px;
+  width: 60px;
+  height: 39px;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+    font-size: 8px;
+    width: 60px;
+    height: 39px;
+    bottom: 0px;
+    right: 10px;
+  }
+  
+  .btn-flotante-left {
+    font-size: 8px;
+    width: 60px;
+    height: 39px;
+    bottom: 0px;
+    left: 10px;
+  }
+}
+
+
+    .BotonVolver {
+      float: left !important;
+      /* margin-top: 5px !important; */
+      color: white !important;
+      background: #0b3857 !important;
+      font-size: 8px;
+      width: 60px;
+      height: 39px;
+      margin-left: 0;
+    }
+    #seleccionar{
+      font-size: 8px;
+      width: 60px;
+      height: 39px;
+    }
+    .colorFondo{
+      background: #fff !important;
+    }
+    .copy{
+      font-size:8px;
+      width: 170px;
+    }
+    .relleno{
+       font-size: 8px;
+      width: 60px;
+      height: 39px;
+    }

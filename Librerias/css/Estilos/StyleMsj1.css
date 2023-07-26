@@ -1,0 +1,59 @@
+/* ----- ----- ----- ----- */
+
+div [checkbox="rta"] span {
+display: inline-block;
+cursor: pointer;
+color:#065991;
+padding: 5px 5px 5px 5px;
+font-size: 0.7em;
+border-radius: 5px;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease; }
+div [checkbox="rta"] span:hover {
+  background-color: rgba(0, 62, 95, 0.2);}
+div [checkbox="rta"] span:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid #065991; }
+div [checkbox="rta"] span:before {
+border-radius: 3px; }
+div [checkbox="rta"] input[type="checkbox"] {
+display: none; }
+div [checkbox="rta"] input[type="checkbox"]:checked + span:before {
+  display: none; }
+div [checkbox="rta"] input[type="checkbox"]:checked + span {
+ background-color: rgba(132, 0, 15, 1);
+  color: #fff;
+  padding: 5px 15px; }
+.hidden{
+	display:none;
+}
+div [modal="aut"].modal-body {
+  /* fondo de pantalla */
+  /*background:-webkit-gradient(linear, 72% 34%, 21% 0%, from(#00C28F), to(#5DBACE))*/
+  background: rgba(24, 24, 16, .2) !important;
+}
+/* fondo de div contenedor de datos */
+div [estiloCard="estiloCard"]{
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  padding: 2px !important;
+}
+#avatar{
+  width: 20%;
+}
+.verde{
+	color: #095100;
+}
+

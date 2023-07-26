@@ -1,0 +1,145 @@
+/* ////////////// GENERALES ////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif!important;
+  /* background-color: #f2f1f6 !important; */
+  background-image: url('Librerias/img/fondo.png') !important;
+  background-repeat: no-repeat !important;
+}
+
+.linkOpcionMenu{
+  text-decoration: none !important;
+  color: black !important;
+  border: solid 2px #ebebeb !important;
+  border-left: solid 2px #31328c !important;
+  border-radius: 4px !important;
+  background: white !important;
+  margin: 0px !important;
+  box-shadow: 0px 0px 15px #e2e2e2;
+  width: 100% !important;
+}
+
+
+.linkOpcionMenu:focus{
+    box-shadow: none !important;
+    border: solid 2px #31328c !important;
+  }
+  
+  .linkOpcionMenu .icoMenuTramite{
+    color: #31328c !important;
+    font-size: 45px !important;
+    margin-right: 10px !important;
+  }
+  
+  .linkOpcionMenu h6{
+    color: #31328c !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+  }
+  
+  .Botonera {
+    width: 100% !important;
+    height: 52px !important;
+    background: white;
+    bottom: 0 !important;
+    left: 0 !important;
+    position: fixed !important;
+    padding: 7px 10px !important;
+    font-size: 8px !important;
+    
+    font-weight: bold !important;
+    /* box-shadow: 0px -2px 10px #c2c2c2 !important; */
+    justify-content: center !important;
+  }
+  
+  .BotonVolver {
+    float: left !important;
+    color: white !important;
+    background: #31328c !important;
+    font-size: 8px !important;
+    width: 60px !important;
+    height: 39px !important;
+    margin-left: 0 !important;
+  }
+
+  .BtnHidden{
+    float: left !important;
+    color: white !important;
+    background: #31328c !important;
+    font-size: 8px !important;
+    width: 60px !important;
+    height: 39px !important;
+    margin-left: 0 !important;
+  }
+
+  .nav-tabs{
+    background: #ffff !important;
+  }
+
+  .nav-link{
+    color: #0b3857 !important;
+    font-weight: bold !important;
+  }
+
+  .nav .nav-item[aria-selected="true"]{
+    color: white !important;
+    background: #0b3857 !important;
+  } 
+
+  .ConteinerPreloader {
+    position: fixed !important;
+    left: 0px !important;
+    top: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 9999 !important;
+    /* opacity: .8 !important; */
+  }
+  
+  
+  .ConteinerSpinner {
+    padding: 5px !important;
+    /* top: 50% !important; */
+    background: #0b0b0bd1 !important;
+    width: 100% !important;
+    /* border-radius: 5px !important; */
+  }
+  
+  .spinner {
+    border: 7px solid #d1d1d1;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    border-left-color: #2067b3;
+    animation: spinner 1s linear infinite;
+    /* box-shadow: 0px 0px 30px #bdbdbd !important; */
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .imgSpinner {
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute !important;
+    text-align: center !important;
+    margin-left: -50px !important;
+    margin-top: 0px !important;
+    border-radius: 50% !important;
+  }
+
+  .noFocus:focus{
+    box-shadow: none !important;
+  }
+  
+  
+  
+  

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+/*body{
+    background: linear-gradient(to right, #ffffff, #d8dddd);
+}*/
+
+.footer{
+    position: fixed;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    background: white !important;
+    color: black !important;
+    font-weight: bold;
+    margin-top: 10px !important;
+    align-self: flex-end;
+}
+
+.link_copy{
+    color: black !important;
+}
+
+.selectComercios{
+    border: solid 2px transparent !important;
+    border-image: linear-gradient(to left, #3acfd5 0%, #3a4ed5 100%) 1 !important;
+    border-radius: 5px;
+}
+
+.selectComercios:focus{
+    box-shadow: none !important;
+}
+
+.btnForm{
+    background: #3140a2 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.btnForm:hover{
+    background: #e3e8e8  !important;
+    color: #3140a2 !important;
+    border: solid 1px #3140a2 !important;
+}
+
+.btnForm:focus{
+    box-shadow: none;
+}
+
+.btnVerMotivos{
+    padding: 0px 10px !important;
+    background: #ce2929 !important;
+}
+
+.btnVerMotivos:hover{
+    background: #bf4848 !important;
+}
+
+.btnComprobante{
+    padding: 0px 10px !important;
+    background: #0d6b25 !important;
+}
+
+.btnComprobante:hover{
+    padding: 0px 10px !important;
+    background: #1aa53d !important;
+}
+
+.CabeceraModal{
+    background: #ce2929 !important;
+    color: white !important;
+}
+
+.CabeceraModalAprobado{
+    background: #1aa53d !important;
+}

@@ -1,0 +1,55 @@
+@media (max-width: 750px){
+  /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+      display: block;
+      border: 2px;
+      border-color: #8d8d8d;
+      color:rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      border: 1px;
+      background-color: #fff;
+
+    }
+    tbody{
+      text-align: center;
+      margin: 10px;
+      margin-left: 0px;
+      background-color:#f2f1f6;
+      width: 100%;
+    }
+
+    tr {
+      margin: 0 0 1rem 0;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 3%;
+      background-color: rgb(255, 255, 255);
+    }
+
+    td {
+      /* Behave  like a "row" */
+      position: relative;
+    }
+
+    td:before {
+      color: #000000;
+      /* Top/left values mimic padding */
+
+      width: 150px;
+    }
+  /*
+  Label the data
+  You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+  */
+  td:nth-of-type(1):before { content: ""; }
+  td:nth-of-type(2):before { content: ""; }
+  td:nth-of-type(3):before { content: "Acciones"; }
+  }
+}

@@ -1,0 +1,82 @@
+/* ----- ----- ----- ----- */
+.ResubirRtaAutomotores{
+  text-align: center !important;
+  padding: 0px !important;
+}
+
+.ResubirRtaAutomotores input[type="checkbox"] {
+  display: none !important;
+}
+
+.ResubirRtaAutomotores span {
+  display: inline-block !important;
+  cursor: pointer;
+  color: white;
+  font-weight: bold !important;
+  background: #cb0d0d;
+  padding: 7px 1px !important;
+  font-size: 0.6em !important;
+  border-radius: 3px !important; 
+  -webkit-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+  transition: all 0.3s ease !important;
+  width: 95% !important;
+  margin-right: 0px !important;
+}
+
+.botonResubir{
+  /* border: solid 1px #4ca5e1 !important; */
+  padding: 0px !important;
+  /* text-align: center !important; */
+}
+
+div [checkbox="rta"] span:hover {
+  background-color: rgba(0, 62, 95, 0.2);
+}
+div [checkbox="rta"] span:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid #065991;
+}
+div [checkbox="rta"] span:before {
+  border-radius: 3px;
+}
+
+div [checkbox="rta"] input[type="checkbox"]:checked + span:before {
+  display: none !important;
+}
+div [checkbox="rta"] input[type="checkbox"]:checked + span {
+  background-color: rgba(132, 0, 15, 1);
+  color: #fff;
+  padding: 5px 15px;
+}
+.hidden {
+  display: none !important;
+}
+
+
+
+/* fondo de div contenedor de datos */
+div [estiloCard="estiloCard"] {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  padding: 2px !important;
+}
+
+#avatar {
+  width: 20%;
+}
+.verde {
+  background-color: #1c6712 !important;
+}
+
